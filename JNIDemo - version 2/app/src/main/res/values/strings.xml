@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">JNIDemo</string>
+    <string name="jni_dashboard_title">Android JNI Dashboard</string>
+    <string name="jni_dashboard_subtitle">Laboratoire Complet — Mode Interactif &amp; Dynamique</string>
+
+    <string name="title_section_1">1) Test de Connexion Initiale</string>
+    <string name="title_section_2">2) Calcul de Factoriel Natif (Max 20)</string>
+    <string name="title_section_3">3) Inversion de Chaîne de Caractères</string>
+    <string name="title_section_4">4) Traitement de Tableau d\'Entiers Natif</string>
+    <string name="title_section_5">5) Extension : Benchmark Java vs C++ (RegisterNatives)</string>
+
+    <string name="btn_label_hello">Appeler helloFromJNI()</string>
+    <string name="btn_label_calc">Calculer en C++</string>
+    <string name="btn_label_reverse">Inverser la chaîne</string>
+    <string name="btn_label_array">Calculer la somme</string>
+    <string name="btn_label_benchmark">Lancer le Benchmark (10M cycles)</string>
+
+    <string name="jni_waiting">En attente d\'activation...</string>
+    <string name="error_empty_field">Ce champ ne peut pas être vide</string>
+    <string name="error_invalid_array">Format invalide (Exemple valide : 10,20,30)</string>
+    <string name="factorial_error_negative">Erreur C++ : Valeur négative impossible.</string>
+    <string name="factorial_error_overflow">Erreur C++ : Risque d\'overflow (&gt;20).</string>
+    <string name="array_error_overflow">Erreur C++ : Dépassement de capacité sur la somme.</string>
+    <string name="array_error_null">Erreur C++ : Tableau invalide ou nul.</string>
+
+    <string name="dynamic_factorial_success">Résultat Natif : %1$d! = %2$d</string>
+    <string name="dynamic_reverse_success">Inversion C++ : %1$s</string>
+    <string name="dynamic_array_success">Somme calculée par pointeur (%1$d éléments) = %2$d</string>
+    <string name="benchmark_running">Calcul en cours sur les cœurs du CPU...</string>
+    <string name="benchmark_success">⏱️ VERDICT DU COEUR NATIF :\n• Temps Java : %1$d ms\n• Temps C++ (NDK) : %2$d ms\n\n🚀 L\'algorithme C++ a été %3$.2fx plus rapide !</string>
+
+    <string name="footer_note">🔒 Architecture NDK sécurisée. Logcat actif avec le tag \'JNI_PREMIUM_DEMO\'.</string>
+    <string name="security_status_title">Bouclier de Sécurité Natif :</string>
+    <string name="security_safe">ENVIRONNEMENT SAIN (Aucun debug détecté)</string>
+    <string name="security_compromised">ALERTE : ENVIRONNEMENT COMPROMIS / DÉBOGUEUR DÉTECTÉ</string>
+    <string name="security_blocked_action">Action bloquée par la politique de sécurité native.</string>
+</resources>
